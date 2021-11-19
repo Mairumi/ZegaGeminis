@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background: url(/proyecto/img/registro.jpg);
+    background: url(/img/registro.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -76,7 +76,7 @@ p{
 .link:hover{
      color: #a72ecc
 }
-@media(min-width:768px)
+@media screen and (min-width:800px)
 {
     .formulario{
         margin: auto;

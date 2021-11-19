@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Russo+One&display=swap');
 
 body {
-    margin: 0;
-    background: url(/proyecto/img/registro.jpg);
+    background: url(/img/registro.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 * {
     box-sizing: border-box;
@@ -91,8 +91,9 @@ p{
 .link:hover{
      color: #a72ecc
 }
-@media(min-width:768px)
+@media screen and (min-width:800px)
 {
+   
     .formulario{
         margin: auto;
         width: 500px;

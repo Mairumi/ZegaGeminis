@@ -5,42 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/style.css" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/05333f8de8.js" crossorigin="anonymous"></script>
     <title>ZG</title>
 </head>
 <body>
     
     <nav>
-    <div class="logo">ZG</div>
+            <img src="/img/icono-menu.png" alt="" class="logo">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
     <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Emulador</a></li>
-        <li><a href="#">Juegos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Emulador">Emulador</a></li>
+        <li><a href="#Juegos">Juegos</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
         <li><a href="login.html">Login</a></li>
         <li><a href="registro.html">Sing Up</a></li>
     </ul>
     </nav>
     
     
-    <div class="friends">
+    <div class="friends" id="Inicio">
     <video src="video/friends play.mp4" autoplay loop muted></video>
     </div>
 
-<section>
+<section id="Emulador">
     <div class="about">
      
-     
-     <h1> Juega los clásicos de 16 bits con tu amigx Online</h1>
-     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-         <br>Inventore sunt, dolore adipisci repellat animi praesentium consequuntur.</p>
-         <img src="/img/contacto.jpg">
+        
+         <div class="container">
+            
+            <div>
+                    <h1> Juega los clásicos de 16 bits con tu amigx Online</h1> <br>
+                    <p>Nuestro emulador de ZEGA GEMINIS contiene Red Local para cada uno de los juegos
+                    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vel accusantium,<br>
+                     suscipit officia porro harum placeat quo excepturi modi quae! Nihil natus.
+         <img src="/img/emulador.png">
+         </div>
+         </div>
 
     </div>
     
 </section>
 
-<div class="galeria">
+<div class="galeria" id="Juegos">
     <h1>JUEGOS</h1>
     <div class="contenedor-imagenes">
         <div class="imagen">
@@ -102,7 +112,7 @@
 
 
 
-        <div class="container">
+        <div class="container" id="Contacto">
             <div class="contact-box">
                 <div class="left"></div>
                 <div class="right">
@@ -120,16 +130,13 @@
                 <div class="grupo-1">
                     <div class="box">
                         <figure>
-                            <a href="#">
-                                <img src="">
-                            </a>
+                                <img src="/img/zg.png">
                         </figure>
                     </div>
                     <div class="box">
                         
                     </div>
-                    <div class="box">
-                        <h2></h2>
+                    <div class="box-redes">
                         <div class="red-social">
                             <a href="#" class="fa fa-facebook"></a>
                             <a href="#" class="fa fa-instagram"></a>
@@ -139,7 +146,7 @@
                     </div>
                 </div>
                 <div class="grupo-2">
-                    <small>&copy; 2021 <b>Mica</b> - Todos los Derechos Reservados.</small>
+                    <small>&copy; <b>Micaela Ruiz #1617</b> | NUCBA.</small>
                 </div>
             </footer>
     
